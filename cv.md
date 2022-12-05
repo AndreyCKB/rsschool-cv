@@ -12,10 +12,7 @@
 
 ### Briefly About Myself:
 
-С начало работал монтажником локальных сетей, тянул кобеля, устанавливал оборудование провайдера, настраивал оборудования пользователей.  
-Затем работал в банке занимался настройкой, ремонтов, и обслуживанием Банкоматов, платёжных и POS терминалов.  
-Сейчас работаю Middle developer CRM Siebel. В рабое ипользую Siebel Tools, eScript, SQL, XSLT, JavaScript.  
-В свободное время люблю решать задачи на [Codewars.com](https://www.codewars.com/users/AndreyCKB1985)
+Need to write a text
 
 ### Skills:
 
