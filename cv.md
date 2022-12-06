@@ -8,7 +8,7 @@
 **Phone:** +7 (963) 850-03-59  
 **E-mail:** andreyckb@mail.ru  
 **Telegram:** @Addres  
-**GitHub:** [AndreyCKB](https://github.com/AndreyCKB)
+**GitHub:** [AndreyCKB](https://github.com/AndreyCKB)  
 **Discord:** AndreySKB#5901
 
 ### Briefly About Myself:
