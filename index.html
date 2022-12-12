@@ -15,9 +15,11 @@
                 <li class="menu__item">CONTACTS</li>
                 <li class="menu__item">SKILLS</li>
                 <li class="menu__item">COURSES</li>
-                <li class="menu__item">JOB EXPERIENCE</li>
+                <li class="menu__item">JOB</li>
                 <li class="menu__item">EDUCATION</li>
                 <li class="menu__item">SUMMARY</li>
+                <li class="menu__item">CODE</li>
+                <li class="menu__item">PROJECTS</li>
             </ul>                       
         </nav>       
     </header>   
@@ -25,58 +27,61 @@
         <aside class="aside">
             <div class="aside__body">
                 <img class="aside__photo" src="./assets/pic/myPhoto.jpg" alt="my photo">
+
                 <div class="aside__line"></div>
-                <div class="aside__item margin_auto">                                   
+                <div class="aside__item">                                   
                     <h3 class="aside__title">CONTACTS</h3>
-                    <div class="aside__row">                        
-                        <img class="aside__icon" src="./assets/img/contacts/geolokatsiya.png" alt="">
-                        <span class="aside__name">Russia, Yekaterinburg</span>                        
-                    </div>
-                    <div class="aside__row">                        
-                        <img class="aside__icon" src="./assets/img/contacts/email.png" alt="">
-                        <span class="aside__name">E-mail:</span>
-                        <a class="aside__value" href="#">AndreyCKB@gmail.ru</a>
-                    </div>
-                    <div class="aside__row">                        
-                        <img class="aside__icon" src="./assets/img/contacts/github.png" alt="">
-                        <span class="aside__name">GitHub:</span>
-                        <a class="aside__value" href="#">AndreyCKB</a>
-                    </div>
-                    <div class="aside__row">                        
-                        <img class="aside__icon" src="./assets/img/contacts/discord.png" alt="">
-                        <span class="aside__name">Discord:</span>
-                        <a class="aside__value" href="#">AndreySKB#5901</a>
-                    </div>
-                    <div class="aside__row">                        
-                        <img class="aside__icon" src="./assets/img/contacts/telegram.png" alt="">
-                        <span class="aside__name">Telegram:</span>
-                        <a class="aside__value" href="#">AndreyCKB</a>
-                    </div>                    
+                    <ul class="aside-list list-style-type_none">
+                        <li class="aside-list__item-with-icon">                    
+                            <img class="aside-list__icon" src="./assets/img/contacts/geolokatsiya.png" alt="">
+                            <span class="aside-list__name">Russia, Yekaterinburg</span>
+                        </li>
+                        <li class="aside-list__item-with-icon ">                    
+                            <img class="aside-list__icon" src="./assets/img/contacts/email.png" alt="">
+                            <span class="aside-list__name">E-mail:</span>
+                            <a class="aside-list__value" href="#">AndreyCKB@gmail.ru</a>
+                        </li>
+                        <li class="aside-list__item-with-icon">                    
+                            <img class="aside-list__icon" src="./assets/img/contacts/github.png" alt="">
+                            <span class="aside-list__name">GitHub:</span>
+                            <a class="aside-list__value" href="#">AndreyCKB</a>
+                        </li>
+                        <li class="aside-list__item-with-icon">                    
+                            <img class="aside-list__icon" src="./assets/img/contacts/discord.png" alt="">
+                            <span class="aside-list__name">Discord:</span>
+                            <a class="aside-list__value" href="#">AndreySKB#5901</a>
+                        </li>
+                        <li class="aside-list__item-with-icon">                    
+                            <img class="aside-list__icon" src="./assets/img/contacts/telegram.png" alt="">
+                            <span class="aside-list__name">Telegram:</span>
+                            <a class="aside-list__value" href="#">AndreyCKB</a>
+                        </li>
+                    </ul>                                
                 </div>
 
                 <div class="aside__line"></div>
                 <div class="aside__item">                                   
                     <h3 class="aside__title">SKILLS</h3>
                     <ul class="aside-list">
-                        <li class="aside-list-item">                    
-                            <span class="aside-list-item__name">Web-development:</span>
-                            <span class="aside-list-item__value">HTML, CSS, JavaScript</span>                        
+                        <li class="aside-list__item">                    
+                            <span class="aside-list__name">Web-development:</span>
+                            <span class="aside-list__value">HTML, CSS, JavaScript</span>                        
                         </li>
-                        <li class="aside-list-item">                          
-                            <span class="aside-list-item__name">Frameworks:</span>
-                            <span class="aside-list-item__value">Angular</span>            
+                        <li class="aside-list__item">                          
+                            <span class="aside-list__name">Frameworks:</span>
+                            <span class="aside-list__value">Vue</span>            
                         </li>
-                        <li class="aside-list-item">                           
-                            <span class="aside-list-item__name">Version control:</span>
-                            <span class="aside-list-item__value">Git, Github</span>                            
+                        <li class="aside-list__item">                           
+                            <span class="aside-list__name">Version control:</span>
+                            <span class="aside-list__value">Git, Github</span>                            
                         </li>
-                        <li class="aside-list-item">                           
-                            <span class="aside-list-item__name">Graphics:</span>
-                            <span class="aside-list-item__value">Figma</span>           
+                        <li class="aside-list__item">                           
+                            <span class="aside-list__name">Graphics:</span>
+                            <span class="aside-list__value">Figma</span>           
                         </li>
-                        <li class="aside-list-item">                           
-                            <span class="aside-list-item__name">Languages:</span>
-                            <span class="aside-list-item__value">English, Russian</span>           
+                        <li class="aside-list__item">                           
+                            <span class="aside-list__name">Languages:</span>
+                            <span class="aside-list__value">English, Russian</span>           
                         </li>                                                        
                     </ul>                    
                 </div>
@@ -85,17 +90,17 @@
                 <div class="aside__item">                                   
                     <h3 class="aside__title">COURSES</h3>
                     <ul class="aside-list">                            
-                        <li class="aside-list-item">                          
-                            <span class="aside-list-item__name">learn.javascript.ru:</span>
-                            <span class="aside-list-item__value">JavaScript</span>            
+                        <li class="aside-list__item">                          
+                            <span class="aside-list__name">learn.javascript.ru:</span>
+                            <span class="aside-list__value">JavaScript</span>            
                         </li>                            
-                        <li class="aside-list-item">                           
-                            <span class="aside-list-item__name">Codewars:</span>
-                            <span class="aside-list-item__value">JavaScript, Java</span>           
+                        <li class="aside-list__item">                           
+                            <span class="aside-list__name">Codewars:</span>
+                            <span class="aside-list__value">JavaScript, Java</span>           
                         </li>
-                        <li class="aside-list-item">                           
-                            <span class="aside-list-item__name">JavaRush :</span>
-                            <span class="aside-list-item__value">Java</span>                            
+                        <li class="aside-list__item">                           
+                            <span class="aside-list__name">JavaRush:</span>
+                            <span class="aside-list__value">Java</span>                            
                         </li>                                                        
                     </ul>                    
                 </div>
@@ -103,18 +108,18 @@
         </aside>
 
         <main class="main">            
-            <div class="main-header">
+            <div class="main-title">
                 <div class="margin_auto animation__title">
-                    <h1 class="main-header__title">LYAKHOVICH ANDREY</h1>
-                    <h2 class="main-header__subtitle">FRONT-END DEVELOPER</h2>
+                    <h1 class="main__title">LYAKHOVICH ANDREY</h1>
+                    <h2 class="main__subtitle">FRONT-END DEVELOPER</h2>
                 </div>
             </div>
             <div class="main__content margin_auto">
             <div class="main-item">
-                <div class="main-separator">
-                    <span class="main-separator__text">JOB&nbsp;EXPERIENCE</span>
-                    <div class="main-separator__line"></div>
-                    <img class="main-separator__icon" src="./assets/main-separator/EXPERIENCE.jpg" alt="">
+                <div class="separator">
+                    <span class="separator__text">JOB</span>
+                    <div class="separator__line"></div>
+                    <img class="separator__icon" src="./assets/img/main-separator/EXPERIENCE.jpg" alt="">
                 </div>
                 <div class="main-item__contente margin_auto">
                     <div class="main-textbox">                    
@@ -154,10 +159,10 @@
                 </div>         
             </div>
             <div class="main-item">
-                <div class="main-separator">
-                    <span class="main-separator__text">EDUCATION</span>
-                    <div class="main-separator__line"></div>
-                    <img class="main-separator__icon" src="./assets/main-separator/educational.png" alt="">
+                <div class="separator">
+                    <span class="separator__text">EDUCATION</span>
+                    <div class="separator__line"></div>
+                    <img class="separator__icon" src="./assets/img/main-separator/educational.png" alt="">
                 </div>
                 <div class="main-item__contente margin_auto">
                     <div class="main-textbox">                    
@@ -187,25 +192,61 @@
             </div>
 
             <div class="main-item">
-                <div class="main-separator">
-                    <span class="main-separator__text">SUMMARY</span>
-                    <div class="main-separator__line"></div>
-                    <img class="main-separator__icon" src="./assets/main-separator/summary.png" alt="">
+                <div class="separator">
+                    <span class="separator__text">SUMMARY</span>
+                    <div class="separator__line"></div>
+                    <img class="separator__icon" src="./assets/img/main-separator/summary.png" alt="">
                 </div>
                 <div class="main-item__contente margin_auto">
                     <div class="main-textbox">                         
-                        <div class="main-textbox-Center">                            
-                            <p class="main-textbox-Center__text">Перед тем как составить собственный документ, посмотрите изложение информации у конкурентов. Работодатели ищут соискателей, обладающих высоким уровнем ответственности, быстро воспринимающих новую информацию, способных оперативно реагировать на сложные ситуации.</p>
+                        <div class="main-textbox-center">                            
+                            <p class="main-textbox-center__text">Перед тем как составить собственный документ, посмотрите изложение информации у конкурентов. Работодатели ищут соискателей, обладающих высоким уровнем ответственности, быстро воспринимающих новую информацию, способных оперативно реагировать на сложные ситуации.</p>
                         </div>
                     </div>           
                    
                 </div>         
             </div>
+
+            <div class="main-item">
+                <div class="separator">
+                    <span class="separator__text">CODE</span>
+                    <div class="separator__line"></div>
+                    <img class="separator__icon" src="./assets/img/main-separator/code.png" alt="">
+                </div>
+                <div class="main-item__contente margin_auto">
+                    <div class="main-textbox">                         
+                        <div class="main-textbox-center">                            
+                            <code class="main-textbox-center__text">function highAndLow(numbers){ 
+                               <pre>  numbers = numbers.split(" ").map(str => Number.parseInt(str)).sort((a,b) => a - b);</pre>  
+                               <pre>  return `${numbers[numbers.length - 1]} ${numbers[0]}`; </pre> 
+                            }</code>
+                        </div>
+                    </div>                   
+                </div>         
+            </div>
         </div>
         </main>
     </div>
-    <footer class="footer margin_auto">        
-        <img class="footer__img" src="./assets/img/footer/rs_school_js.png" alt="">        
+
+    <footer class="footer margin_auto">
+        <div class="footer_item">
+            <div class="rs-school">
+                <a class="rs-school-link" href="https://rs.school" >
+                    <img class="rs-school-logo" src="./assets/img/footer/rs_school_js.png" alt="" >
+                </a>           
+            </div> 
+        </div>
+        <div class="footer_item">   
+            <div class="git-hub"> 
+                <a class="git-hub__link" href="https://github.com/AndreyCKB" >
+                    <img class="git-hub__logo" src="./assets/img/footer/icon-github.png" alt="" >
+                    <span class="footer__text">My GitHub</span>                                
+                </a>
+            </div>
+        </div>
+        <div class="footer_item">     
+            <span class="footer__text">2022 г.</span>
+        </div>      
     </footer>    
 </body>
 </html>
