@@ -2,7 +2,7 @@
     --separator-color: #220ce6;
     --main-text-color:  #e0d20f; 
     --body-max-width: 75%;
-    --main-background-color: #777777;
+    --main-background-color: #030258;
 }
 
 html{
@@ -18,7 +18,7 @@ html{
 }
 
 .body{
-    background-color: #000000; 
+    background-color: #bbbbbb; 
     font-family: "Arial", sans-serif;   
 }
 
@@ -51,7 +51,7 @@ html{
 
 .menu__item {    
     overflow: hidden;
-    background: linear-gradient(to right, #0f63e0, #0f63e0 50%, var(--main-text-color)  50%);
+    background: linear-gradient(to right, #ffffff, #ffffff 50%, var(--main-text-color)  50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
@@ -69,6 +69,7 @@ html{
 .content{    
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     width: var(--body-max-width);    
     background-color: var(--main-background-color);    
@@ -122,11 +123,13 @@ html{
 .aside-list__item-with-icon{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 10px 0;
 }
 
 .aside-list__icon {   
-    width: 35px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;    
 }
 
@@ -137,6 +140,7 @@ html{
 .aside-list__value {
     line-height: 2;
     padding-left: 0.2em;
+    color: var(--main-text-color);
 }
 
 
@@ -170,7 +174,7 @@ html{
 
 @keyframes color-change {    
     33% {
-      color: #008000;
+      color: #e0d20f;
     }  
     66% {
       color: #0000ff;
@@ -181,7 +185,7 @@ html{
 }
 
 .animation__title{
-    animation: color-change 8s infinite;    
+    animation: color-change 8s infinite;     
 }
 
 .separator {
@@ -211,7 +215,7 @@ html{
 
 .main-item__contente {
     max-width: 98%;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .main-textbox {    
@@ -229,7 +233,8 @@ html{
 
 .main-textbox-center{
     padding: 0 1em 0 0;
-    text-align: justify;   
+    text-align: justify;
+       
 }
 
 .main-textbox-right {
@@ -292,7 +297,7 @@ html{
 
 
 
-/* Commot classes */
+/* Common classes */
 .margin_auto{
     margin: 0 auto;
 }
@@ -300,4 +305,13 @@ html{
 .list-style-type_none{     
     list-style-type: none;
     padding: 0 0 0 0.5em;
+}
+
+.spaces{
+    padding: 0 0 0 170px;
+}
+
+.code {
+    font-family:  'Courier New', Courier, monospace;
+    font-size: 17px;    
 }
