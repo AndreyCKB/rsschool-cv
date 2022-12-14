@@ -1,31 +1,29 @@
-:root{
+:root {
     --separator-color: #220ce6;
     --main-text-color:  #e0d20f; 
     --body-max-width: 75%;
     --main-background-color: #030258;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
 *, 
 *:after,
-*:before{   
+*:before {   
     box-sizing: inherit;
     margin: 0;
 }
 
-.body{
+.body {
     background-color: #bbbbbb; 
     font-family: "Arial", sans-serif;   
 }
 
 /*  Header  */
-.header{  
-    position: sticky;   
-    top: 0;
+.header {     
     display: flex; 
     justify-content: center;
     align-items: center;     
@@ -35,7 +33,7 @@ html{
     background-color: var(--main-background-color);      
 }
 
-.header_nav{
+.header_nav {
     width: 100%;
 }
 
@@ -66,7 +64,7 @@ html{
 }
 
 /* Content */
-.content{    
+.content {    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,8 +83,7 @@ html{
 .aside__body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    font-size: 21px;   
+    justify-content: space-around;       
 }
 
 .aside__photo {    
@@ -94,15 +91,13 @@ html{
    width: 90%;
 }
 
-
-
 .aside__item {    
     display: flex;
     flex-direction: column;
     justify-content: center;    
 }
 
-.aside__line{
+.aside__line {
     margin: 0;
     width: 100%;
     border-bottom: 3px solid var(--main-text-color);; 
@@ -116,11 +111,12 @@ html{
  }
 
 
-.aside-list{
+.aside-list {
     padding: 0 1.8em;
+    font-size: 19px;    
 }
 
-.aside-list__item-with-icon{
+.aside-list__item-with-icon {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -141,9 +137,8 @@ html{
     line-height: 2;
     padding-left: 0.2em;
     color: var(--main-text-color);
+    text-decoration: none;
 }
-
-
 
 /* Content Main*/
 .main {    
@@ -155,7 +150,7 @@ html{
     width: 68%;
 }
 
-.main__content{
+.main__content {
     max-width: 97%;
 }
 
@@ -165,11 +160,12 @@ html{
     margin: 1em 0;  
 }
 
-.main__title{
+.main__title {
     font-size: 50px;    
 }
-.main__subtitle{
-    font-size: 30px;   
+
+.main__subtitle {
+    font-size: 30px;
 }
 
 @keyframes color-change {    
@@ -184,7 +180,7 @@ html{
     }     
 }
 
-.animation__title{
+.animation__title {
     animation: color-change 8s infinite;     
 }
 
@@ -215,35 +211,41 @@ html{
 
 .main-item__contente {
     max-width: 98%;
-    font-size: 20px;    
+    font-size: 18px;    
 }
 
 .main-textbox {    
     display: flex;
-    flex-direction: row;      
-}
+    flex-direction: row;
+}    
 
-.main-textbox-left {
-    padding: 3px 0 0 0;
+.main-textbox-left {    
     width: 13%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main-textbox-center{
+.main-textbox-center {
     padding: 0 1em 0 0;
-    text-align: justify;
-       
+    text-align: justify;    
 }
 
 .main-textbox-right {
     padding-left: 15px;
-    width: 80%; 
+    width: 80%;
+    text-align: justify;    
 }
 
-.main-textbox-right__title {
-    margin: 0;   
+.main-textbox-right__title {    
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;     
+    text-decoration: none;
+}
+
+.main-textbox-right__title:hover {    
+    color: var(--separator-color);    
 }
 
 .main-textbox-right__subtitle {
@@ -254,60 +256,59 @@ html{
     margin-top: 0.3em;
 }
 
-.margin_top_1em{
+.margin_top_1em {
     margin-top: 1em;
 }
 
 /* Footer */
-.footer{    
+.footer {    
     width: var(--body-max-width);
     display: flex;        
     justify-content: space-between; 
     background-color: var(--main-background-color);
 }
-.footer_item{
+.footer_item {
     height: 100%;
     align-self: flex-end;    
 }
 
-.git-hub__link{
+.git-hub__link {
     text-decoration: none;
 }
 
-.footer__text
-{
+.footer__text {
     font-size: 38px;
     color: #e0d20f;
     text-decoration: none;    
 }
 
-.rs-school-logo{
+.rs-school-logo {
     height: 3em;
 }
 
-.git-hub__link{
+.git-hub__link {
     display: flex;
     justify-content: center;    
     align-items: flex-end;
 }
 
-.git-hub__logo{
+.git-hub__logo {
     height: 3em;
 }
 
 
 
 /* Common classes */
-.margin_auto{
+.margin_auto {
     margin: 0 auto;
 }
 
-.list-style-type_none{     
+.list-style-type_none {     
     list-style-type: none;
     padding: 0 0 0 0.5em;
 }
 
-.spaces{
+.spaces {
     padding: 0 0 0 170px;
 }
 

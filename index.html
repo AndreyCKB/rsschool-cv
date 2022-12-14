@@ -1,273 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/cv.ico">
-    <title>CV</title>
-</head>
-<body class="body">     
-    <header class="header">        
-        <nav class="header_nav">
-            <ul class="menu">
-                <li class="menu__item">CONTACTS</li>
-                <li class="menu__item">SKILLS</li>
-                <li class="menu__item">COURSES</li>
-                <li class="menu__item">JOB</li>
-                <li class="menu__item">EDUCATION</li>
-                <li class="menu__item">SUMMARY</li>
-                <li class="menu__item">CODE</li>
-                <li class="menu__item">PROJECTS</li>
-            </ul>                       
-        </nav>       
-    </header>   
-    <div class="content margin_auto">        
-        <aside class="aside">
-            <div class="aside__body">
-                <img class="aside__photo" src="./assets/pic/myPhoto.jpg" alt="my photo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/img/cv.ico">
+        <title>CV</title>
+    </head>
+    <body class="body">     
+        <header class="header">        
+            <nav class="header_nav">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#contacts-id">CONTACTS</a></li>
+                    <li class="menu__item"><a href="#skills-id">SKILLS</a></li>
+                    <li class="menu__item"><a href="#courses-id">COURSES</a></li>
+                    <li class="menu__item"><a href="#job-id">JOB</a></li>
+                    <li class="menu__item"><a href="#education-id">EDUCATION</a></li>
+                    <li class="menu__item"><a href="#summary-id">SUMMARY</a></li>
+                    <li class="menu__item"><a href="#code-id">CODE</a></li>
+                    <li class="menu__item"><a href="#projects-id">PROJECTS</a></li>
+                </ul>                       
+            </nav>       
+        </header>   
+        <div class="content margin_auto">        
+            <aside class="aside">
+                <div class="aside__body">
+                    <img class="aside__photo" src="./assets/pic/myPhoto.jpg" alt="my photo">
 
-                <div class="aside__line"></div>
-                <div class="aside__item">                                   
-                    <h3 class="aside__title">CONTACTS</h3>
-                    <ul class="aside-list list-style-type_none">
-                        <li class="aside-list__item-with-icon">                    
-                            <img class="aside-list__icon" src="./assets/img/contacts/geolokatsiya.png" alt="icon eolocation">
-                            <span class="aside-list__name">Adds:</span>
-                            <span class="aside-list__value">Russia,Yekaterinburg</span> 
-                        </li>
-                        <li class="aside-list__item-with-icon ">                    
-                            <img class="aside-list__icon" src="./assets/img/contacts/email.png" alt="icon email">
-                            <span class="aside-list__name">E-mail:</span>
-                            <a class="aside-list__value" href="#" target="_blank">AndreyCKB@gmail.ru</a>
-                        </li>
-                        <li class="aside-list__item-with-icon">                    
-                            <img class="aside-list__icon" src="./assets/img/contacts/github.png" alt="icon GitHub">
-                            <span class="aside-list__name">GitHub:</span>
-                            <a class="aside-list__value" href="#" target="_blank">AndreyCKB</a>
-                        </li>
-                        <li class="aside-list__item-with-icon">                    
-                            <img class="aside-list__icon" src="./assets/img/contacts/discord.png" alt="icon discord">
-                            <span class="aside-list__name">Discord:</span>
-                            <a class="aside-list__value" href="#" target="_blank">AndreySKB#5901</a>
-                        </li>
-                        <li class="aside-list__item-with-icon">                    
-                            <img class="aside-list__icon" src="./assets/img/contacts/telegram.png" alt="icon telegram">
-                            <span class="aside-list__name">Telegram:</span>
-                            <a class="aside-list__value" href="#" target="_blank">AndreyCKB</a>
-                        </li>
-                    </ul>                                
-                </div>
-
-                <div class="aside__line"></div>
-                <div class="aside__item">                                   
-                    <h3 class="aside__title">SKILLS</h3>
-                    <ul class="aside-list">
-                        <li class="aside-list__item">                    
-                            <span class="aside-list__name">Web-development:</span>
-                            <span class="aside-list__value">HTML, CSS, JavaScript</span>                        
-                        </li>
-                        <li class="aside-list__item">                          
-                            <span class="aside-list__name">Frameworks:</span>
-                            <span class="aside-list__value">Vue</span>            
-                        </li>
-                        <li class="aside-list__item">                           
-                            <span class="aside-list__name">Version control:</span>
-                            <span class="aside-list__value">Git, Github</span>                            
-                        </li>
-                        <li class="aside-list__item">                           
-                            <span class="aside-list__name">Graphics:</span>
-                            <span class="aside-list__value">Figma</span>           
-                        </li>
-                        <li class="aside-list__item">                           
-                            <span class="aside-list__name">Languages:</span>
-                            <span class="aside-list__value">English, Russian</span>           
-                        </li>                                                        
-                    </ul>                    
-                </div>
-
-                <div class="aside__line"></div>
-                <div class="aside__item">                                   
-                    <h3 class="aside__title">COURSES</h3>
-                    <ul class="aside-list">                            
-                        <li class="aside-list__item">                          
-                            <span class="aside-list__name">learn.javascript.ru:</span>
-                            <span class="aside-list__value">JavaScript</span>            
-                        </li>                            
-                        <li class="aside-list__item">                           
-                            <span class="aside-list__name">Codewars:</span>
-                            <span class="aside-list__value">JavaScript, Java</span>           
-                        </li>
-                        <li class="aside-list__item">                           
-                            <span class="aside-list__name">JavaRush:</span>
-                            <span class="aside-list__value">Java</span>                            
-                        </li>                                                        
-                    </ul>                    
-                </div>
-            </div>            
-        </aside>
-
-        <main class="main">            
-            <div class="main-title">
-                <div class="margin_auto animation__title">
-                    <h1 class="main__title">LYAKHOVICH ANDREY</h1>
-                    <h2 class="main__subtitle">FRONT-END DEVELOPER</h2>
-                </div>
-            </div>
-            <div class="main__content margin_auto">
-            <div class="main-item">
-                <div class="separator">
-                    <span class="separator__text">JOB</span>
-                    <div class="separator__line"></div>
-                    <img class="separator__icon" src="./assets/img/main-separator/EXPERIENCE.jpg" alt="icon job">
-                </div>
-                <div class="main-item__contente margin_auto">
-                    <div class="main-textbox">                    
-                        <div class="main-textbox-left">
-                            <div class="main-textbox-left__text">01.01.2000</div>
-                            <div class="main-textbox-left__separator">-</div>
-                            <div class="main-textbox-left__text">01.01.2000</div>
-                        </div>
-                        <div class="main-textbox-right">
-                            <h3 class="main-textbox-right__title">ООО Интернет</h3>
-                            <p class="main-textbox-right__subtitle">Мантажник ЛВС</p>
-                            <p class="main-textbox-right__text">Монтаж локальных сетей, протяжка кобеля, устанавливал оборудование провайдера, настройка конечного оборудования пользователей.</p>
-                        </div>
+                    <div class="aside__line"></div>
+                    <div class="aside__item">                                   
+                        <h3 class="aside__title" id="contacts-id">CONTACTS</h3>
+                        <ul class="aside-list list-style-type_none">
+                            <li class="aside-list__item-with-icon">                    
+                                <img class="aside-list__icon" src="./assets/img/contacts/geolokatsiya.png" alt="icon eolocation">
+                                <span class="aside-list__name">Location:</span>
+                                <span class="aside-list__value">Russia,Yekaterinburg</span> 
+                            </li>
+                            <li class="aside-list__item-with-icon ">                    
+                                <img class="aside-list__icon" src="./assets/img/contacts/email.png" alt="icon email">
+                                <span class="aside-list__name">E-mail:</span>
+                                <span class="aside-list__value">AndreyCKB@gmail.ru</span>
+                            </li>
+                            <li class="aside-list__item-with-icon">                    
+                                <img class="aside-list__icon" src="./assets/img/contacts/github.png" alt="icon GitHub">
+                                <span class="aside-list__name">GitHub:</span>
+                                <a class="aside-list__value" href="https://github.com/AndreyCKB" target="_blank">AndreyCKB</a>
+                            </li>
+                            <li class="aside-list__item-with-icon">                    
+                                <img class="aside-list__icon" src="./assets/img/contacts/discord.png" alt="icon discord">
+                                <span class="aside-list__name">Discord:</span>
+                                <span class="aside-list__value">AndreySKB#5901</span>
+                            </li>
+                            <li class="aside-list__item-with-icon">                    
+                                <img class="aside-list__icon" src="./assets/img/contacts/telegram.png" alt="icon telegram">
+                                <span class="aside-list__name">Telegram:</span>
+                                <span class="aside-list__value">@AndreySKB</span>
+                            </li>
+                        </ul>                                
                     </div>
-                    <div class="main-textbox margin_top_1em"> 
-                        <div class="main-textbox-left">
-                            <div class="main-textbox-left__text">01.01.2010</div>
-                            <div class="main-textbox-left__separator">-</div>
-                            <div class="main-textbox-left__text">01.01.2010</div>
-                        </div>
-                        <div class="main-textbox-right">
-                            <h3 class="main-textbox-right__title">ООО СКБ-БАНК</h3>
-                            <p class="main-textbox-right__subtitle">Специалист по ремонту банкоматов</p>
-                            <p class="main-textbox-right__text">Затем работал в банке занимался настройкой, ремонтов, и обслуживанием Банкоматов, платёжных и POS терминалов.</p>
-                        </div>
-                    </div> 
-                    <div class="main-textbox margin_top_1em">                    
-                        <div class="main-textbox-left">
-                            <div class="main-textbox-left__text">01.01.2010</div>                            
-                        </div>
-                        <div class="main-textbox-right">
-                            <h3 class="main-textbox-right__title">ООО СКБ-ОНЛАЙН</h3>
-                            <p class="main-textbox-right__subtitle">Middle developer CRM Siebel</p>
-                            <p class="main-textbox-right__text">В рабое ипользую Siebel Tools, eScript, SQL, XSLT, JavaScript.</p>
-                        </div>
-                    </div>    
-                </div>         
-            </div>
-            <div class="main-item">
-                <div class="separator">
-                    <span class="separator__text">EDUCATION</span>
-                    <div class="separator__line"></div>
-                    <img class="separator__icon" src="./assets/img/main-separator/educational.png" alt="icon educatiom">
-                </div>
-                <div class="main-item__contente margin_auto">
-                    <div class="main-textbox">                    
-                        <div class="main-textbox-left">
-                            <div class="main-textbox-left__text">01.01.2005</div>
-                            <div class="main-textbox-left__separator">-</div>
-                            <div class="main-textbox-left__text">01.01.2000</div>
-                        </div>
-                        <div class="main-textbox-right">
-                            <h3 class="main-textbox-right__title">Колледж связи</h3>                            
-                            <p class="main-textbox-right__text">Автоматизированные системы управления</p>
-                        </div>
+
+                    <div class="aside__line"></div>
+                    <div class="aside__item">                                   
+                        <h3 class="aside__title" id="skills-id">SKILLS</h3>
+                        <ul class="aside-list">
+                            <li class="aside-list__item">                    
+                                <span class="aside-list__name">Web-development:</span>
+                                <span class="aside-list__value">HTML, CSS, JavaScript</span>                        
+                            </li>
+                            <li class="aside-list__item">                          
+                                <span class="aside-list__name">Frameworks:</span>
+                                <span class="aside-list__value">Vue</span>            
+                            </li>
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">Version control:</span>
+                                <span class="aside-list__value">Git, Github</span>                            
+                            </li>
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">Database:</span>
+                                <span class="aside-list__value">SQL</span>                            
+                            </li>
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">Graphics:</span>
+                                <span class="aside-list__value">Figma</span>           
+                            </li>
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">Languages:</span>
+                                <span class="aside-list__value">English, Russian</span>           
+                            </li>                                                        
+                        </ul>                    
                     </div>
-                    <div class="main-textbox margin_top_1em">                    
-                        <div class="main-textbox-left">
-                            <div class="main-textbox-left__text">01.01.2010</div>
-                            <div class="main-textbox-left__separator">-</div>
-                            <div class="main-textbox-left__text">01.01.2010</div>
+
+                    <div class="aside__line"></div>
+                    <div class="aside__item">                                   
+                        <h3 class="aside__title" id="courses-id">COURSES</h3>
+                        <ul class="aside-list">                            
+                            <li class="aside-list__item">                          
+                                <span class="aside-list__name">learn.javascript.ru:</span>
+                                <span class="aside-list__value">JavaScript</span>            
+                            </li>                            
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">Codewars:</span>
+                                <span class="aside-list__value">JavaScript, Java</span>           
+                            </li>
+                            <li class="aside-list__item">                           
+                                <span class="aside-list__name">JavaRush:</span>
+                                <span class="aside-list__value">Java</span>                            
+                            </li>                                                        
+                        </ul>                    
+                    </div>
+                </div>            
+            </aside>
+
+            <main class="main">            
+                <div class="main-title">
+                    <div class="margin_auto animation__title">
+                        <h1 class="main__title">LYAHOVICH ANDREY</h1>
+                        <h2 class="main__subtitle">FRONT-END DEVELOPER</h2>
+                    </div>
+                </div>
+                <div class="main__content margin_auto">
+                <div class="main-item">
+                    <div class="separator">
+                        <span class="separator__text" id="job-id">JOB</span>
+                        <div class="separator__line"></div>
+                        <img class="separator__icon" src="./assets/img/main-separator/EXPERIENCE.jpg" alt="icon job">
+                    </div>
+                    <div class="main-item__contente margin_auto">                    
+                        <div class="main-textbox"> 
+                            <div class="main-textbox-left">
+                                <div class="main-textbox-left__text">01.01.2005</div>
+                                <div class="main-textbox-left__separator">-</div>
+                                <div class="main-textbox-left__text">01.01.2019</div>
+                            </div>
+                            <div class="main-textbox-right">
+                                <a class="main-textbox-right__title" href="https://sinara.ru/" target="_blank">BANK SINARA</a>
+                                <p class="main-textbox-right__subtitle">Specialist Department of Peripheral Devices of Bank Cards</p>
+                                <p class="main-textbox-right__text">Maintenance and repair of ATMs,POS and payment terminals</p>
+                            </div>
+                        </div> 
+                        <div class="main-textbox margin_top_1em">                    
+                            <div class="main-textbox-left">
+                                <div class="main-textbox-left__text">01.01.2010</div>                            
+                            </div>
+                            <div class="main-textbox-right">
+                                <a class="main-textbox-right__title" href="https://spark-interfax.ru/sverdlovskaya-oblast-ekaterinburg/ooo-skb-onlain-inn-6685168740-ogrn-1196658076185-96f6264e572a8694e0531b9aa8c05665" target="_blank">SKB-ONLAIN</a>
+                                <p class="main-textbox-right__subtitle">Middle developer CRM Siebel</p>
+                                <p class="main-textbox-right__text">Development of new and improvement of current functionality, based on the tasks of the analyst. Search and elimination of errors. <br>
+                                    I use a worker: Siebel Tools, eScript, SQL, XSLT, JavaScript.</p>
+                            </div>
+                        </div>    
+                    </div>         
+                </div>
+                <div class="main-item">
+                    <div class="separator">
+                        <span class="separator__text" id="education-id">EDUCATION</span>
+                        <div class="separator__line"></div>
+                        <img class="separator__icon" src="./assets/img/main-separator/educational.png" alt="icon educatiom">
+                    </div>
+                    <div class="main-item__contente margin_auto">
+                        <div class="main-textbox">                    
+                            <div class="main-textbox-left">
+                                <div class="main-textbox-left__text">01.01.2002</div>
+                                <div class="main-textbox-left__separator">-</div>
+                                <div class="main-textbox-left__text">01.01.2005</div>
+                            </div>
+                            <div class="main-textbox-right">
+                                <a class="main-textbox-right__title" href="https://www.uisi.ru/" target="_blank">UrTISI SibGUTI</a>
+                                <p class="main-textbox-right__text">Automated control systems</p>
+                            </div>
                         </div>
-                        <div class="main-textbox-right">
-                            <h3 class="main-textbox-right__title">СИНХ</h3>                            
-                            <p class="main-textbox-right__text">Банковское дело</p>
-                        </div>
-                    </div> 
-                   
-                </div>         
+                        <div class="main-textbox margin_top_1em">                    
+                            <div class="main-textbox-left">
+                                <div class="main-textbox-left__text">01.01.2015</div>
+                                <div class="main-textbox-left__separator">-</div>
+                                <div class="main-textbox-left__text">01.01.2018</div>
+                            </div>
+                            <div class="main-textbox-right">
+                                <a class="main-textbox-right__title" href="https://en.usue.ru" target="_blank">URAL STATE UNIVERSITY OF ECONOMICS</a>
+                                <p class="main-textbox-right__text">Economy</p>
+                            </div>
+                        </div> 
+                    
+                    </div>         
+                </div>
+
+                <div class="main-item">
+                    <div class="separator">
+                        <span class="separator__text" id="summary-id">SUMMARY</span>
+                        <div class="separator__line"></div>
+                        <img class="separator__icon" src="./assets/img/main-separator/summary.png" alt="icon summary">
+                    </div>
+                    <div class="main-item__contente margin_auto">
+                        <div class="main-textbox">                         
+                            <div class="main-textbox-center">                            
+                                <p class="main-textbox-center__text">Teamwork (I like to learn new things and share experiences). <br> 
+                                    Ability to understand other people's code. <br> 
+                                    I love everything related to programming and technique.</p>
+                            </div>
+                        </div>                
+                    </div>         
+                </div>
+
+                <div class="main-item">
+                    <div class="separator">
+                        <span class="separator__text" id="code-id">CODE</span>
+                        <div class="separator__line"></div>
+                        <img class="separator__icon" src="./assets/img/main-separator/code.png" alt="icon code">
+                    </div>
+                    <div class="main-item__contente margin_auto">
+                        <div class="main-textbox">                         
+                            <div class="main-textbox-center code">                            
+                                <code class="main-textbox-center__text ">
+                                    function highAndLow(number) {<br> 
+                                    &nbsp;&nbsp;numbers = number.split(' ')<br>
+                                    <span class="spaces">.map(str => Number.parseInt(str))</span><br>
+                                    <span class="spaces">.sort((a,b) => a-b);</span><br> 
+                                    &nbsp;&nbsp;return `${numbers[numbers.length-1]} ${numbers[0]}`;<br>}
+                                </code>
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <div class="separator">
+                        <span class="separator__text" id="projects-id">PROJECT</span>
+                        <div class="separator__line"></div>
+                        <img class="separator__icon" src="./assets/img/main-separator/project.png" alt="icon project">
+                    </div>
+                    <div class="main-item__contente margin_auto">
+                        <div class="main-textbox">                         
+                            <div class="main-textbox-center">                            
+                                <span class="main-textbox-center__text">While empty</span>
+                            </div>
+                        </div>                   
+                    </div>         
+                </div>
             </div>
 
-            <div class="main-item">
-                <div class="separator">
-                    <span class="separator__text">SUMMARY</span>
-                    <div class="separator__line"></div>
-                    <img class="separator__icon" src="./assets/img/main-separator/summary.png" alt="icon summary">
-                </div>
-                <div class="main-item__contente margin_auto">
-                    <div class="main-textbox">                         
-                        <div class="main-textbox-center">                            
-                            <p class="main-textbox-center__text">Перед тем как составить собственный документ, посмотрите изложение информации у конкурентов. Работодатели ищут соискателей, обладающих высоким уровнем ответственности, быстро воспринимающих новую информацию, способных оперативно реагировать на сложные ситуации.</p>
-                        </div>
-                    </div>           
-                   
-                </div>         
-            </div>
-
-            <div class="main-item">
-                <div class="separator">
-                    <span class="separator__text">CODE</span>
-                    <div class="separator__line"></div>
-                    <img class="separator__icon" src="./assets/img/main-separator/code.png" alt="icon code">
-                </div>
-                <div class="main-item__contente margin_auto">
-                    <div class="main-textbox">                         
-                        <div class="main-textbox-center code">                            
-                            <code class="main-textbox-center__text ">
-                                function highAndLow(number) {<br> 
-                                &nbsp;&nbsp;numbers = number.split(' ')<br>
-                                <span class="spaces">.map(str => Number.parseInt(str))</span><br>
-                                <span class="spaces">.sort((a,b) => a-b);</span><br> 
-                                &nbsp;&nbsp;return `${numbers[numbers.length-1]} ${numbers[0]}`;<br>                          
-                            }
-                            </code>
-                        </div>
-                    </div>                   
-                </div>         
-            </div>
-
-            <div class="main-item">
-                <div class="separator">
-                    <span class="separator__text">PROJECT</span>
-                    <div class="separator__line"></div>
-                    <img class="separator__icon" src="./assets/img/main-separator/project.png" alt="icon project">
-                </div>
-                <div class="main-item__contente margin_auto">
-                    <div class="main-textbox">                         
-                        <div class="main-textbox-center">                            
-                            <span class="main-textbox-center__text">While empty</span>
-                        </div>
-                    </div>                   
-                </div>         
-            </div>
+            </main>
         </div>
 
-        </main>
-    </div>
-
-    <footer class="footer margin_auto">
-        <div class="footer_item">
-            <div class="rs-school">
-                <a class="rs-school-link" href="https://rs.school" target="_blank">
-                    <img class="rs-school-logo" src="./assets/img/footer/rs_school_js.png" alt="logo rs-school">
-                </a>           
-            </div> 
-        </div>
-        <div class="footer_item">   
-            <div class="git-hub"> 
-                <a class="git-hub__link" href="https://github.com/AndreyCKB" target="_blank">
-                    <img class="git-hub__logo" src="./assets/img/footer/icon-github.png" alt="icon GitHub" >
-                    <span class="footer__text">My GitHub</span>                                
-                </a>
+        <footer class="footer margin_auto">
+            <div class="footer_item">
+                <div class="rs-school">
+                    <a class="rs-school-link" href="https://rs.school" target="_blank">
+                        <img class="rs-school-logo" src="./assets/img/footer/rs_school_js.png" alt="logo rs-school">
+                    </a>           
+                </div> 
             </div>
-        </div>
-        <div class="footer_item">     
-            <span class="footer__text">2022 г.</span>            
-        </div>      
-    </footer>    
-</body>
+            <div class="footer_item">   
+                <div class="git-hub"> 
+                    <a class="git-hub__link" href="https://github.com/AndreyCKB" target="_blank">
+                        <img class="git-hub__logo" src="./assets/img/footer/icon-github.png" alt="icon GitHub" >
+                        <span class="footer__text">My GitHub</span>                                
+                    </a>
+                </div>
+            </div>
+            <div class="footer_item">     
+                <span class="footer__text">2022 г.</span>            
+            </div>      
+        </footer>    
+    </body>
 </html>
