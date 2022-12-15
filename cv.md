@@ -4,16 +4,17 @@
 
 ### Contact information:
 
-**Address:** Russia, Yekaterinburg  
-**Phone:** +7 (963) 850-03-59  
+**Location:** Russia, Yekaterinburg  
 **E-mail:** andreyckb@mail.ru  
-**Telegram:** @Addres  
+**Telegram:** @AndreySKB  
 **GitHub:** [AndreyCKB](https://github.com/AndreyCKB)  
 **Discord:** AndreySKB#5901
 
 ### Briefly About Myself:
 
-Need to write a text
+Teamwork (I like to learn new things and share experiences).  
+Ability to understand other people's code.  
+I love everything related to programming and technique.
 
 ### Skills:
 
@@ -39,7 +40,6 @@ function highAndLow(numbers){
 
 ### Courses:
 
-- RS Schools Course «JavaScript/Front-end
 - Java [javarush.ru](https://javarush.ru])
 
 ### Language:
